@@ -62,7 +62,7 @@
             // 
             this.button3.Location = new System.Drawing.Point(12, 41);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(89, 23);
+            this.button3.Size = new System.Drawing.Size(106, 23);
             this.button3.TabIndex = 2;
             this.button3.Text = "Лаб 8.2";
             this.button3.UseVisualStyleBackColor = true;
@@ -72,7 +72,7 @@
             // 
             this.button4.Location = new System.Drawing.Point(12, 70);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(89, 23);
+            this.button4.Size = new System.Drawing.Size(106, 23);
             this.button4.TabIndex = 3;
             this.button4.Text = "Лаб 9";
             this.button4.UseVisualStyleBackColor = true;
@@ -82,7 +82,7 @@
             // 
             this.button5.Location = new System.Drawing.Point(12, 99);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(89, 23);
+            this.button5.Size = new System.Drawing.Size(106, 23);
             this.button5.TabIndex = 4;
             this.button5.Text = "Упражнение 3";
             this.button5.UseVisualStyleBackColor = true;
@@ -92,7 +92,7 @@
             // 
             this.button6.Location = new System.Drawing.Point(12, 128);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(89, 23);
+            this.button6.Size = new System.Drawing.Size(106, 23);
             this.button6.TabIndex = 5;
             this.button6.Text = "Упражнение 4";
             this.button6.UseVisualStyleBackColor = true;
@@ -102,7 +102,7 @@
             // 
             this.button7.Location = new System.Drawing.Point(12, 157);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(89, 23);
+            this.button7.Size = new System.Drawing.Size(106, 23);
             this.button7.TabIndex = 6;
             this.button7.Text = "Упражнение 8-9";
             this.button7.UseVisualStyleBackColor = true;
@@ -112,7 +112,7 @@
             // 
             this.button8.Location = new System.Drawing.Point(12, 12);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(89, 23);
+            this.button8.Size = new System.Drawing.Size(106, 23);
             this.button8.TabIndex = 7;
             this.button8.Text = "Лаб 8.1";
             this.button8.UseVisualStyleBackColor = true;
