@@ -86,5 +86,10 @@ namespace OOPModule2NN
             form.ShowDialog();
         }
 
+        private void button8_Click(object sender, EventArgs e)
+        {
+            Form5 form = new Form5();
+            form.ShowDialog();
+        }
     }
 }

@@ -12,9 +12,11 @@ namespace OOPModule2NN
 {
     public partial class Form4 : Form
     {
+        private int openDocuments = 0;
         public Form4()
         {
             InitializeComponent();
+            this.IsMdiContainer = true;
         }
 
         
@@ -26,25 +28,22 @@ namespace OOPModule2NN
 
         private void toolStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
-            if (e.ClickedItem.Tag != null)
+            switch (e.ClickedItem.Tag.ToString())
             {
-                switch (e.ClickedItem.Tag.ToString())
-                {
-                    case "NewDoc":
-                        break;
+                case "NewDoc":
+                    Form6 newChild = new Form6();
+                    newChild.MdiParent = this;
+                    newChild.Show();
+                    newChild.Text = newChild.Text + " " + ++openDocuments;
+                    break;
 
-                    case "Cascade":
-                        this.LayoutMdi(System.Windows.Forms.MdiLayout.Cascade);
-                        break;
+                case "Cascade":
+                    this.LayoutMdi(System.Windows.Forms.MdiLayout.Cascade);
+                    break;
 
-                    case "Title":
-                        this.LayoutMdi(System.Windows.Forms.MdiLayout.TileHorizontal);
-                        break;
-
-                    default:
-                        MessageBox.Show("Неизвестная команда");
-                        break;
-                }
+                case "Tile":
+                    this.LayoutMdi(System.Windows.Forms.MdiLayout.TileHorizontal);
+                    break;
             }
         }
     }
