@@ -67,5 +67,24 @@ namespace OOPModule2NN
             Form3 form = new Form3();
             form.ShowDialog();
         }
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Form4 form = new Form4();
+            form.ShowDialog();
+        }
+        private void button6_Click(object sender, EventArgs e)
+        {
+
+            Upr4 form = new Upr4();
+            form.ShowDialog();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+
+            Upr8 form = new Upr8();
+            form.ShowDialog();
+        }
+
     }
 }
